@@ -1,7 +1,7 @@
 const express = require('express');
 const player = require('play-sound')();
 const app = express();
-const port = 3000;
+const port = 4000;
 
 const paths = {
   left: './sounds/white-noise-left.wav',
